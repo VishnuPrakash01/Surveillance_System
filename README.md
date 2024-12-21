@@ -94,6 +94,10 @@ Contributions to improve functionality or add new features are welcome. Please c
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Contact
+
+For queries or support, please contact: [vishnu] vishnuprakashl0112@gmail.com
+
 ## Acknowledgments
 - [dlib](http://dlib.net/)
 - [face_recognition](https://github.com/ageitgey/face_recognition)
