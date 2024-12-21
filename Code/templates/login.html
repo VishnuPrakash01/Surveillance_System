@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        h1{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            text-decoration: bisque;
+            text-shadow: 2px 2px blue;
+            font-style: italic;
+        }
+        body{
+            background-color: gainsboro;
+            line-height: 5;
+        }
+        /* <style> */
+        #container {
+        margin: 0px auto;
+        width: 500px;
+        height: 375px;
+        border: 10px #333 solid;
+        }
+    </style>
+</head>
+<body>
+    <form action="res" method = "get">
+    <h1>Login Page</h1>
+    <label for="">Name :</label>
+    <input type="text" name = "name">
+    <br>
+    <label for="">House Number</label>
+    <input type="text" name = "house_no">
+    <br>
+    <!-- <a href="{{url_for('login')}}">Image Capturing</a> -->
+    <button name = "camera" type ="submit">Take Image</button>
+    <br>
+    <!-- <div id="container">
+        <video autoplay="true" id="videoElement">  
+        </video>
+    </div> -->
+    <!-- <input type="submit"> -->
+</form>
+<form action="cameras">
+    <button>Open Camera</button>
+</form>
+<form action="video_feed">
+    <button>Video Feed</button>
+</form>
+</body>
+</html>
